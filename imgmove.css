@@ -1,0 +1,112 @@
+@media screen and (max-width:640px){
+    .framebox{
+        width:100%;
+    }
+
+}
+@media screen and (min-width:640px){
+    .framebox{
+        width:950px;
+    }
+
+}
+
+.imgmovebox{
+    width:100%;
+    height:80vh;
+    position:relative;
+    border:5px #000 solid;
+}
+
+#ibox01{
+    position:absolute;
+    width:100%;
+    text-align:center;
+
+    animation-name: ani01;
+    animation-duration:1.5s;
+    animation-fill-mode: forwards;
+
+
+}
+
+@keyframes ani01{
+    0%{opacity: 0;left:20px;}
+    100%{opacity: 1;left:0px;}
+}
+@-moz-keyframes ani01{
+    0%{opacity: 0;left:20px;}
+    100%{opacity: 1;left:0px;}
+}
+@-webkit-keyframes ani01{
+    0%{opacity: 0;left:20px;}
+    100%{opacity: 1;left:0px;}
+}
+@-o-keyframes ani01{
+    0%{opacity: 0;left:20px;}
+    100%{opacity: 1;left:0px;}
+}
+@-ms-keyframes ani01{
+    0%{opacity: 0;left:20px;}
+    100%{opacity: 1;left:0px;}
+}
+#ibox02{
+    position:absolute;
+    width:100%;
+    text-align:left;
+    bottom:0;
+    animation-name: ani02;
+    animation-duration:1.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes ani02{
+    0%{opacity: 0;left:0%;}
+    100%{opacity: 1;left:10%;}
+}
+@-moz-keyframes ani02{
+    0%{opacity: 0;left:0%;}
+    100%{opacity: 1;left:10%;}
+}
+@-webkit-keyframes ani02{
+    0%{opacity: 0;left:0%;}
+    100%{opacity: 1;left:10%;}
+}
+@-o-keyframes ani02{
+    0%{opacity: 0;left:0%;}
+    100%{opacity: 1;left:10%;}
+}
+@-ms-keyframes ani02{
+    0%{opacity: 0;left:0%;}
+    100%{opacity: 1;left:10%;}
+}
+
+
+#ibox03{
+    position:absolute;
+    width:100%;
+    text-align:right;
+    bottom:0;
+    animation-name: ani03;
+    animation-duration:1.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes ani03{
+    0%{opacity: 0;right:0%;}
+    100%{opacity: 1;right:10%;}
+}
+@-moz-keyframes ani03{
+    0%{opacity: 0;right:0%;}
+    100%{opacity: 1;right:10%;}
+}
+@-webkit-keyframes ani03{
+    0%{opacity: 0;right:0%;}
+    100%{opacity: 1;right:10%;}
+}
+@-o-keyframes ani03{
+    0%{opacity: 0;right:0%;}
+    100%{opacity: 1;right:10%;}
+}
+@-ms-keyframes ani03{
+    0%{opacity: 0;right:0%;}
+    100%{opacity: 1;right:10%;}
+}
