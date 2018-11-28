@@ -24,60 +24,80 @@
     text-align:center;
 
     animation-name: ani01;
-    animation-duration:1.5s;
+    animation-duration:2s;
     animation-fill-mode: forwards;
+    animation-timing-function: linear;
 
 
 }
 
 @keyframes ani01{
     0%{opacity: 0;left:20px;}
+    30%{opacity: 1;left:0px;}
     100%{opacity: 1;left:0px;}
 }
+
 @-moz-keyframes ani01{
     0%{opacity: 0;left:20px;}
+    30%{opacity: 1;left:0px;}
     100%{opacity: 1;left:0px;}
 }
 @-webkit-keyframes ani01{
     0%{opacity: 0;left:20px;}
+    30%{opacity: 1;left:0px;}
     100%{opacity: 1;left:0px;}
 }
 @-o-keyframes ani01{
     0%{opacity: 0;left:20px;}
+    30%{opacity: 1;left:0px;}
     100%{opacity: 1;left:0px;}
 }
 @-ms-keyframes ani01{
     0%{opacity: 0;left:20px;}
+    30%{opacity: 1;left:0px;}
     100%{opacity: 1;left:0px;}
 }
+
 #ibox02{
     position:absolute;
     width:100%;
     text-align:left;
     bottom:0;
     animation-name: ani02;
-    animation-duration:1.5s;
+    animation-duration:2s;
     animation-fill-mode: forwards;
+    animation-timing-function: linear;
 }
 @keyframes ani02{
     0%{opacity: 0;left:0%;}
-    100%{opacity: 1;left:10%;}
+    33%{opacity: 0;left:0%;}
+    63%{opacity: 1;left:5%;}
+    100%{opacity: 1;left:5%;}
 }
+
 @-moz-keyframes ani02{
     0%{opacity: 0;left:0%;}
-    100%{opacity: 1;left:10%;}
+    33%{opacity: 0;left:0%;}
+    63%{opacity: 1;left:5%;}
+    100%{opacity: 1;left:5%;}
 }
 @-webkit-keyframes ani02{
     0%{opacity: 0;left:0%;}
-    100%{opacity: 1;left:10%;}
+    33%{opacity: 0;left:0%;}
+    63%{opacity: 1;left:5%;}
+    100%{opacity: 1;left:5%;}
 }
 @-o-keyframes ani02{
     0%{opacity: 0;left:0%;}
-    100%{opacity: 1;left:10%;}
+    33%{opacity: 0;left:0%;}
+    63%{opacity: 1;left:5%;}
+    100%{opacity: 1;left:5%;}
 }
 @-ms-keyframes ani02{
     0%{opacity: 0;left:0%;}
-    100%{opacity: 1;left:10%;}
+    33%{opacity: 0;left:0%;}
+    63%{opacity: 1;left:5%;}
+    100%{opacity: 1;left:5%;}
 }
 
 
@@ -87,26 +107,31 @@
     text-align:right;
     bottom:0;
     animation-name: ani03;
-    animation-duration:1.5s;
+    animation-duration:2s;
     animation-fill-mode: forwards;
 }
 @keyframes ani03{
     0%{opacity: 0;right:0%;}
+    36%{opacity: 0;right:0%;}
     100%{opacity: 1;right:10%;}
 }
 @-moz-keyframes ani03{
     0%{opacity: 0;right:0%;}
+    36%{opacity: 0;right:0%;}
     100%{opacity: 1;right:10%;}
 }
 @-webkit-keyframes ani03{
     0%{opacity: 0;right:0%;}
+    36%{opacity: 0;right:0%;}
     100%{opacity: 1;right:10%;}
 }
 @-o-keyframes ani03{
     0%{opacity: 0;right:0%;}
+    36%{opacity: 0;right:0%;}
     100%{opacity: 1;right:10%;}
 }
 @-ms-keyframes ani03{
     0%{opacity: 0;right:0%;}
+    36%{opacity: 0;right:0%;}
     100%{opacity: 1;right:10%;}
 }
